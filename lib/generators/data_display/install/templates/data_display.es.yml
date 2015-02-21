@@ -1,0 +1,26 @@
+<%= locale %>:
+  data_display:
+    true_class:
+      formats:
+        long: 'Si'
+        short: 'Si'
+    false_class:
+      formats:
+        long: 'No'
+        short: 'No'
+    nil_class:
+      formats:
+        long: '(vacío)'
+        short: '-'
+    time:
+      formats:
+        long: ! '%d de %B de %Y %H:%M'
+        short: ! '%d de %b %H:%M'
+    date_time:
+      formats:
+        long: ! '%d de %B de %Y %H:%M'
+        short: ! '%d de %b %H:%M'
+    date:
+      formats:
+        long: ! '%d de %B de %Y'
+        short: ! '%d de %b'

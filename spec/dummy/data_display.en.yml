@@ -1,0 +1,26 @@
+en:
+  data_display:
+    true_class:
+      formats:
+        long: 'Yes'
+        short: 'Yes'
+    false_class:
+      formats:
+        long: 'No'
+        short: 'No'
+    nil_class:
+      formats:
+        long: '(empty)'
+        short: '-'
+    time:
+      formats:
+        long: ! '%B %d, %Y %H:%M'
+        short: ! '%d %b %H:%M'
+    date_time:
+      formats:
+        long: ! '%B %d, %Y %H:%M'
+        short: ! '%d %b %H:%M'
+    date:
+      formats:
+        long: ! '%B %d, %Y'
+        short: ! '%b %d'
