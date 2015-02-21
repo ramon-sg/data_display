@@ -7,8 +7,8 @@ module DataDisplay
       def acts_as_displayable(*args)
         args = columns.map(&:name) if args.blank?
         args.each do |attribute|
-          define_method "#{attribute}_display" do
-            __data_display__(send(attribute))
+          define_method "#{attribute}_display" do |format = nil|
+            __data_display__(send(attribute), format)
           end
         end
       end
